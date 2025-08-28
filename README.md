@@ -13,18 +13,19 @@ The dashboard is structured across **5 interactive pages**, with slicers, naviga
 ## 📂 Dashboard Pages  
 
 ### 🔹 Page 1 – Executive Summary  
-- **KPI Cards**: Meetings, After-Hours %, Employee Coverage  
+- **KPI Cards**: Meetings, After-Hours %, Average Burnout Risk
 - **Line Chart**: Meeting Volume trend (Jan–Aug 2025)  
 - **Bar Chart**: Department-wise comparison (Finance, HR, etc.)  
-- **Slicers**: Date, Department, EmployeeID  
+- **Slicers**: Date, Department, EmployeeID
+- Navigation icons for all other pages  
 
 ---
 ![Overview Dashboard](https://github.com/CharuDataAnalyst/Digital-Meeting-Burnout-Analyzer-Work-Life-Balance-Dashboard/blob/main/overview%20dashboard.png)
 
 ### 🔹 Page 2 – Meeting Load Analysis  
-- **Trend Line**: Meeting Frequency by Day/Week  
+- **Line Chart**: Meeting Duration Trends by Department 
 - **Heatmap**: Meeting Distribution by Time of Day  
-- **KPI**: % Increase/Decrease in Meetings  
+- **Column Chart**: Meeting Type distribution  
 - **Drill-through**: Employee-level view  
 - **Slicers**: Date Range, Department  
 ---
@@ -32,33 +33,29 @@ The dashboard is structured across **5 interactive pages**, with slicers, naviga
 
 
 ### 🔹 Page 3 – Burnout Index   
-- **Bar Chart**: After-Hours Meetings by Department  
-- **KPI Cards**: Total After-Hours %, Avg. Meetings after 6 PM  
-- **Distribution Chart**: Work vs. Personal Time Overlap  
-- **Insight Card**: “Finance had 20.86% of all After-Hours Meetings”  
-- **Slicers**: Department, Employee Level  
+- **Line Chart**: After-Hours Burnout Risk over time  
+- **KPI Cards**: Avg Burnout index %, Employees at High Risk  
+- **Column Chart**: Burnout Risk by Department
+- **Insight Card**: “Finance had 20.94% of all After-Hours Meetings”  
+- **Slicers**: Employee Level  
 ---
 ![Burnout Dashboard](https://github.com/CharuDataAnalyst/Digital-Meeting-Burnout-Analyzer-Work-Life-Balance-Dashboard/blob/main/Burnout%20dashboard.png)
 
 
-### 🔹 Page 4 – Employee Well-being Index  
-- **Gauge Chart**: Employee Stress Index  
-- **KPI Cards**: Min–Max % of After-Hours (0%–1400%)  
-- **Bubble Chart**: Meetings vs. Productivity vs. Stress  
-- **Sentiment Analysis**: Positive/Negative trend (Python NLP)  
-- **Slicers**: EmployeeID, Team  
-
+### 🔹 Page 4 –  Department Overview
+- **Stacked column Chart**:  Show number of employess having Risk
+- **KPI Cards**: Total Department,Emplyoee, Meetings 
+- **Pie Chart**: Meetings vs. Department  
+- **Line Chart**: Department-wise Burnoutrisk Trends over 3 months
+- **Slicers**: Department
 ---
+![Department Dashboard](https://github.com/CharuDataAnalyst/Digital-Meeting-Burnout-Analyzer-Work-Life-Balance-Dashboard/blob/main/Department%20Dashboard.png)
 
-### 🔹 Page 5 – Client/HR Actionable Insights  
-- **Summary KPIs**:  
-  - Top 3 Burnout Departments  
-  - Most Overloaded Employees  
-  - Recovery Trend (July–Aug 2025)  
-- **Recommendation Cards**:  
-  - “Limit Friday after-hours meetings”  
-  - “Set team-level no-meeting days”  
-- **Drill-through**: Employee-level details  
+### 🔹 Page 5 –  Productivity & Context Switching Page   
+- **KPI Cards**: Avg Productivity, Avg Context Switches  
+- **Scatter Plot**: Context Switch Count vs Productivity Score  
+- **Line Chart**: Productivity Trend over time  
+- **Insights**: More switches = higher burnout risk
 - **Navigation Buttons**: Back to Page 1  
 
 ---
