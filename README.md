@@ -27,17 +27,19 @@ The dashboard is structured across **5 interactive pages**, with slicers, naviga
 - **KPI**: % Increase/Decrease in Meetings  
 - **Drill-through**: Employee-level view  
 - **Slicers**: Date Range, Department  
-
 ---
+![Meeting Dashboard](https://github.com/CharuDataAnalyst/Digital-Meeting-Burnout-Analyzer-Work-Life-Balance-Dashboard/blob/main/meeting%20dashboard.png)
 
-### 🔹 Page 3 – After-Hours Stress  
+
+### 🔹 Page 3 – Burnout Index   
 - **Bar Chart**: After-Hours Meetings by Department  
 - **KPI Cards**: Total After-Hours %, Avg. Meetings after 6 PM  
 - **Distribution Chart**: Work vs. Personal Time Overlap  
 - **Insight Card**: “Finance had 20.86% of all After-Hours Meetings”  
 - **Slicers**: Department, Employee Level  
-
 ---
+![Burnout Dashboard](https://github.com/CharuDataAnalyst/Digital-Meeting-Burnout-Analyzer-Work-Life-Balance-Dashboard/blob/main/Burnout%20dashboard.png)
+
 
 ### 🔹 Page 4 – Employee Well-being Index  
 - **Gauge Chart**: Employee Stress Index  
