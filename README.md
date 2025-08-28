@@ -19,6 +19,7 @@ The dashboard is structured across **5 interactive pages**, with slicers, naviga
 - **Slicers**: Date, Department, EmployeeID  
 
 ---
+![Overview Dashboard](https://github.com/CharuDataAnalyst/Digital-Meeting-Burnout-Analyzer-Work-Life-Balance-Dashboard/blob/main/overview%20dashboard.png)
 
 ### 🔹 Page 2 – Meeting Load Analysis  
 - **Trend Line**: Meeting Frequency by Day/Week  
